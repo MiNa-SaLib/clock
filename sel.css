@@ -1,0 +1,190 @@
+body{
+   background-color: #8ca162;
+}
+.page{
+   position: absolute;
+   top: 50%;
+   right: 50%;
+   margin-top: -150px;
+   margin-right: -150px;
+   text-align: center;
+}
+h2{
+   margin-top: 70px;
+    font-size: 15px;
+    color: initial;
+}
+
+.cont{
+   width: 300px;
+   height: 300px;
+   background-color: #dfd01f;
+   border-radius: 50%;
+   position: relative;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   font-size: 20px;
+   font-weight: bold;
+   
+}
+
+span{
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: #fff;
+   display: block;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-top: -5px;
+   margin-left: -5px;
+z-index: 111;
+}
+
+.cont .sec{
+   width: 120px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -2.5px;
+    display: inline-block;
+    transform-origin: left;
+    background-color: #f00;
+    animation-name: sec;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 9;
+    
+}
+.cont .min{
+   width: 110px;
+    height: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -2.5px;
+    display: inline-block;
+    transform-origin: left;
+    background-color: #800089;
+    animation-name: sec;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+z-index: 8;
+}
+.cont .hour{
+   width: 90px;
+    height: 7px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -2.5px;
+    display: inline-block;
+    transform-origin: left;
+    background-color: #000;
+    animation-name: sec;
+    animation-duration: 43200s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+z-index: 5;
+}
+
+.n12{
+   width: 15px;
+   height: 15px;
+    position: absolute;
+    top: 5px;
+    left: 142.5px;
+}
+.n3{
+   width: 15px;
+   height: 15px;
+    position: absolute;
+    right: 5px;
+    top: 142.5px;
+}
+.n6{
+   width: 15px;
+   height: 15px;
+    position: absolute;
+    bottom:  5px;
+    left: 142.5px;
+}
+.n9{
+   width: 15px;
+   height: 15px;
+    position: absolute;
+    top:  142.5px;
+    left:5px;
+}
+.n1{
+   width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 23px;
+    right: 70.5px;
+}
+
+.n2{
+   width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 70.5px;
+    right: 23px;
+}
+.n4{
+   width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 70.5px;
+    right: 23px;
+}
+.n5{
+   width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 25px;
+    right: 70.5px;
+}
+.n11{
+   width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 23px;
+    left: 70.5px;
+}
+.n10{
+   width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 70.5px;
+    left: 23px;
+}
+.n8{
+   width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 70.5px;
+    left: 28px;
+}
+.n7{
+   width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 25px;
+    left: 70.5px;
+}
+
+
+@keyframes sec{
+   from{
+      transform: rotate(0deg);
+   }
+   to{
+      transform: rotate(360deg);
+   }
+}
